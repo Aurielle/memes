@@ -31,8 +31,8 @@ function name($file) {
 
 	<script type="text/javascript">
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-12182518-8']);
-	  _gaq.push(['_setDomainName', 'hosiplan.com']);
+	  _gaq.push(['_setAccount', 'UA-18266607-5']);
+	  _gaq.push(['_setDomainName', 'aurielle.cz']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
@@ -49,7 +49,7 @@ function name($file) {
 	<div class="container">
 
 		<form class="well form-search">
-			<input type="text" id="searchQuery" class="input-medium search-query" placeholder="type please.." />
+			<input type="text" id="searchQuery" class="input-medium search-query" placeholder="type please..." />
 		</form>
 
 	<?php foreach (glob(__DIR__ . '/faces/*') as $file): if(!is_image($file)) continue ?>
@@ -60,6 +60,7 @@ function name($file) {
 			<?php name($file) ?>
 		</div>
 	<?php endforeach ?>
+	<p class="pull-right"><a href="all.php">&lt;&lt; Show all</p>
 	</div>
 
 	<script>
