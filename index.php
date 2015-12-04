@@ -26,7 +26,7 @@ function name($file) {
 		.search-query { width: 600px; height:30px; font-size: 20px; text-align:center; }
 	</style>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script src="bootstrap.min.js"></script>
 
 	<script type="text/javascript">
